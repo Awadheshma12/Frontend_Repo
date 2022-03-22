@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body style="background-color: lightblue;">
+
+    <div style="background-color: black; color: aliceblue; padding: 4px; border: 2px;border-radius: 4px; font-family: sans-serif;">
+        <h1 style="padding-left: 30px;">Contact Us</h1>
+    </div>
+    <br>
+
+
+    <div style="margin-left: 250px; margin-right:200px;">
+        <fieldset>
+
+            <legend>
+                <h2>Personal Information</h2>
+            </legend>
+            <div>
+                <form action="backend.django">
+                    <div>
+                        <strong>First Name: </strong> <input type="text" name="firstName" value="Enter your first name">
+                    </div>
+                    <br>
+                    <div>
+                        <strong>Last Name: </strong><input type="text" name="lastName" value="Enter your last name">
+                    </div>
+                    <br>
+
+                    <div>
+                        <strong>E-mail: </strong> <input type="email" name="myEmail"  value="Enter your Email" >
+                        <strong>Phone no: </strong> <input type="number" name="myPhone" value="0000000000">
+                    </div>
+            </div>
+            <br>
+
+            <div>
+                <strong> Gender: Male </strong> <input type="radio" name="myGender"><strong>Female </strong> <input
+                    type="radio" name="myGender"> <strong>Other </strong><input type="radio" name="myGender">
+            </div>
+            <br>
+
+            <div>
+                <strong>Date Of Birth: </strong> <input type="date" name="myBirth"  value="Date of Birth">
+            </div>
+
+            <br>
+
+            <div>
+                <strong>Color: </strong> <input type="color" name="myColor">
+            </div>
+
+            <br>
+            <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                <h2>Extra Information</h2>
+            </legend>
+            <div>
+                <strong>Linkedin (url): </strong> <input type="url" name="mylinkedin"  value="Enter url">
+                <strong>Facebook (url): </strong> <input type="url" name="myFacebook"  value="Enter url">
+                <strong>Github (url): </strong> <input type="url" name="myGithub"  value="Enter url">
+            </div>
+
+            <br>
+
+            <div>
+                <strong>Upload Document: </strong> <input type="file" name="mydocs"  value="Upload here">
+            </div>
+            <br>
+
+            <div>
+                <div>
+                    <strong>Description: </strong> <textarea name="description" id="" cols="60" rows="10">Write your text Here</textarea>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <strong>Choose your Course</strong>
+                    <select name="select" id="">
+                        <option value="">Computer Science</option>
+                        <option value="">Electrical Engg.</option>
+                        <option value="">Mechatronics</option>
+                        <option value="">Mechanical Engg.</option>
+                    </select>
+                </div>
+                <br> <br>
+                <div>
+                    <strong>Submit: </strong> <input type="submit" name="mySubmit">
+                    <strong>Reset: </strong> <input type="reset" name="mySubmit">
+                </div>
+                <br><br> 
+        </fieldset>
+
+
+
+
+        </form>
+    </div>
+
+
+
+    </div>
+
+    <style>
+
+    </style>
+</body>
+
+</html>
